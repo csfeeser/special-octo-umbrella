@@ -18,7 +18,7 @@ jobs:                                          # All jobs are defined under 'job
     runs-on: ubuntu-latest                      
                                                
 
-    step:                                     
+    steps:                                     
       - name: Checkout                        
         use: actions/checkout@v4             
 
