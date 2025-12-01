@@ -15,7 +15,7 @@ on:                                            # The event trigger block begins
 
 jobs:                                          # All jobs are defined under 'jobs'
   build:                                       # A job ID named 'build'
-    run-on: ubuntu-latest                      
+    runs-on: ubuntu-latest                      
                                                
 
     step:                                     
