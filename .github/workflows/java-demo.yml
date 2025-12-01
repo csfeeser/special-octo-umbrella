@@ -20,7 +20,7 @@ jobs:                                          # All jobs are defined under 'job
 
     steps:                                     
       - name: Checkout                        
-        use: actions/checkout@v4             
+        uses: actions/checkout@v4             
 
       - name: Setup Java                       # Next (still under the wrong 'step' key)
         uses: actions/setup-java@v55            
